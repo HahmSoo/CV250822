@@ -95,7 +95,7 @@ namespace MikeNspired.XRIStarterKit
         [SerializeField]
         [Tooltip("The value of the knob")]
         [Range(0.0f, 1.0f)]
-        float m_Value = 0.5f;
+        float m_Value = 0.0f;
 
         [SerializeField]
         [Tooltip("Whether this knob's rotation should be clamped by the angle limits")]
@@ -103,11 +103,11 @@ namespace MikeNspired.XRIStarterKit
 
         [SerializeField]
         [Tooltip("Rotation of the knob at value '1'")]
-        float m_MaxAngle = 90.0f;
+        float m_MaxAngle = 900.0f;
 
         [SerializeField]
         [Tooltip("Rotation of the knob at value '0'")]
-        float m_MinAngle = -90.0f;
+        float m_MinAngle = 0.0f;
 
         [SerializeField]
         [Tooltip("Angle increments to support, if greater than '0'")]
