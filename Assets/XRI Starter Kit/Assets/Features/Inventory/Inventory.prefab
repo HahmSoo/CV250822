@@ -449,7 +449,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7177199588867152967}
-  - component: {fileID: 7177199588867152966}
   - component: {fileID: 2197905438734197193}
   m_Layer: 0
   m_Name: Inventory
@@ -476,25 +475,6 @@ Transform:
   - {fileID: 2854460863708080324}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &7177199588867152966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7177199588867152965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd2840027d898a2429c81034a0e40c6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openMenuInputLeftHand: {fileID: 0}
-  openMenuInputRightHand: {fileID: 0}
-  leftController: {fileID: 0}
-  rightController: {fileID: 0}
-  enableAudio: {fileID: 2854460863708080325}
-  disableAudio: {fileID: 2854460864166659239}
-  lookAtController: 0
 --- !u!114 &2197905438734197193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -799,6 +779,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2a0aee37f21e70488dd712c3501e9d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactionMethod: 0
+  buttonInteractionMode: 0
   leftControllerInput: {fileID: 0}
   rightControllerInput: {fileID: 0}
   inventoryManager: {fileID: 0}
@@ -984,6 +966,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2a0aee37f21e70488dd712c3501e9d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactionMethod: 0
+  buttonInteractionMode: 0
   leftControllerInput: {fileID: 0}
   rightControllerInput: {fileID: 0}
   inventoryManager: {fileID: 0}
@@ -1321,6 +1305,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2a0aee37f21e70488dd712c3501e9d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactionMethod: 0
+  buttonInteractionMode: 0
   leftControllerInput: {fileID: 0}
   rightControllerInput: {fileID: 0}
   inventoryManager: {fileID: 0}
@@ -1569,6 +1555,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2a0aee37f21e70488dd712c3501e9d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactionMethod: 0
+  buttonInteractionMode: 0
   leftControllerInput: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   rightControllerInput: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   inventoryManager: {fileID: 0}
