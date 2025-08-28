@@ -26,13 +26,10 @@ public class TypewriterPagedText : MonoBehaviour
     public bool enableNextWhenFinished = true;
 
     [Header("마지막 페이지 처리")]
-    [Tooltip("마지막 페이지에서 Next를 누르면 이 오브젝트(또는 popupRoot)를 닫습니다.")]
-    public bool closeOnLastPageNext = true;
+    [Tooltip("마지막 페이지에서 Next를 눌렀을 때 아무 동작도 하지 않음 (팝업은 닫히지 않음)")]
+    public bool doNothingOnLastPage = true;
 
-    [Tooltip("닫을 팝업 루트(미지정 시 이 컴포넌트의 GameObject를 닫음)")]
-    public GameObject popupRoot;
-
-    [Tooltip("팝업이 닫힐 때 호출되는 이벤트")]
+    [Tooltip("팝업이 닫힐 때 호출되는 이벤트 (doNothingOnLastPage=false 인 경우만 실행)")]
     public UnityEvent onPopupClosed;
 
     int _pageIndex = 0;
@@ -42,7 +39,6 @@ public class TypewriterPagedText : MonoBehaviour
 
     void Awake()
     {
-        if (popupRoot == null) popupRoot = gameObject;
         if (textTarget == null)
             Debug.LogWarning("[TypewriterPagedText] TMP_Text를 지정하세요.", this);
     }
@@ -111,7 +107,7 @@ public class TypewriterPagedText : MonoBehaviour
             return;
         }
 
-        // 이미 페이지가 끝나있음 → 다음 페이지 or 닫기
+        // 이미 페이지가 끝나있음 → 다음 페이지 or (마지막이면) 처리
         int next = _pageIndex + 1;
         if (next < pages.Count)
         {
@@ -119,14 +115,18 @@ public class TypewriterPagedText : MonoBehaviour
         }
         else
         {
-            // 마지막 페이지에서 Next → 팝업 닫기
-            if (closeOnLastPageNext && popupRoot != null)
+            // 마지막 페이지
+            if (doNothingOnLastPage)
             {
-                popupRoot.SetActive(false);
+                // 그냥 아무 것도 하지 않음
+                return;
+            }
+            else
+            {
+                // 혹시 닫기를 원한다면 여기서 직접 처리 가능
+                gameObject.SetActive(false);
                 onPopupClosed?.Invoke();
             }
-            // 버튼 비활성화(선택)
-            if (nextUIButton != null) nextUIButton.interactable = false;
         }
     }
 
