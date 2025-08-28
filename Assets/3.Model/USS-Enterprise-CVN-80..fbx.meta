@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 98588dbed03051447a7a63e52cefc6fa
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bridge_Alpha
+    second: {fileID: 2800000, guid: 11c18b785f491bf42bc2ec61f68ea620, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bridge_BaseColor
+    second: {fileID: 2800000, guid: c93b8e3004ecd9a4ea09b85adeec0a27, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bridge_Emission
+    second: {fileID: 2800000, guid: 665e64d0be33f24489fd2c4cbf08b718, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bridge_Metallic
+    second: {fileID: 2800000, guid: 1eeeaf2ccb70155478a56b19a7ac0f65, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bridge_Normal
+    second: {fileID: 2800000, guid: 61209ed93310fcf4aa1158108002871f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bridge_Roughness
+    second: {fileID: 2800000, guid: 13f49bcd7f43c5a4ab00ae0ebc844464, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Handrail_Alpha
+    second: {fileID: 2800000, guid: c9807e8577c4a5f488a43a622ddae31a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Handrail_BaseColor
+    second: {fileID: 2800000, guid: e4bad6f0325b33741bdf462431b22894, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Handrail_Emission
+    second: {fileID: 2800000, guid: 078e9f79439e041479852bfe73df19b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Handrail_Metallic
+    second: {fileID: 2800000, guid: 8574fc9ac2cd2fb4b9370ad080a4ae91, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Handrail_Normal
+    second: {fileID: 2800000, guid: d3376b39d41a6bd40967a1022dee2724, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Handrail_Roughness
+    second: {fileID: 2800000, guid: 192423c39e22087438a5b4496ac8a598, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Main_Body_Alpha
+    second: {fileID: 2800000, guid: 5317e884795c4e04ab97243ad1bc08bf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Main_Body_BaseColor
+    second: {fileID: 2800000, guid: 8d0277ded333f0f478b05dab84a8197b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Main_Body_Emission
+    second: {fileID: 2800000, guid: 651bb2f42ad805343a489ec5b41f6d35, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Main_Body_Metallic
+    second: {fileID: 2800000, guid: 08170ca127e71af42b341d78ff806b76, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Main_Body_Normal
+    second: {fileID: 2800000, guid: 68c7b95b26706f946b3b2e2831218a01, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Main_Body_Roughness
+    second: {fileID: 2800000, guid: d3804874ed8b0a14d9bde4e0b7b70621, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SubDeck_Alpha
+    second: {fileID: 2800000, guid: d511301846d57424489f4660490b70ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SubDeck_BaseColor
+    second: {fileID: 2800000, guid: 3ad69bc013f529440a4bd277a276d935, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SubDeck_Emission
+    second: {fileID: 2800000, guid: e17f9236b2fbff14483eceaf39b22c40, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SubDeck_Metallic
+    second: {fileID: 2800000, guid: 6b0c0b9770d0c1f40813d6c6ae84ef12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SubDeck_Normal
+    second: {fileID: 2800000, guid: 48cdba9161918ce4d95c4bcd0b6bbf64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SubDeck_Roughness
+    second: {fileID: 2800000, guid: fddca4bfbde8a5d44adc689b40ace718, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sub_Budy_Alpha
+    second: {fileID: 2800000, guid: 22956e06b853f4b4ca9a753f05c95235, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sub_Budy_BaseColor
+    second: {fileID: 2800000, guid: d2300c808575a344b9745e38cdbc390d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sub_Budy_Emission
+    second: {fileID: 2800000, guid: 33c39a09d10e0c14d8383158ba094274, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sub_Budy_Metallic
+    second: {fileID: 2800000, guid: c9bb1b37f0ffcf04a97c94c6b315f747, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sub_Budy_Normal
+    second: {fileID: 2800000, guid: 7f2991d21dad7b941ae9541b9fea7684, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sub_Budy_Roughness
+    second: {fileID: 2800000, guid: 2409ed1bde680e84497365f0f877c97c, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
